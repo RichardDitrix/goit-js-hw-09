@@ -1,4 +1,6 @@
+import flatpickr from 'flatpickr';
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
+import 'flatpickr/dist/flatpickr.min.css';
 const formRef = document.querySelector('form.form');
 formRef.addEventListener('submit', event => {
   event.preventDefault();
